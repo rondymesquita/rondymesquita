@@ -1,4 +1,4 @@
-### Ahoy Matey 👋
+### Ahoy Matey :skull: :parrot:
 
 > Killing all cognitive overhead! My challenge is to solve problems writing readable code everyday.
 
