@@ -1,4 +1,6 @@
-### Hi there 👋
+### Ahoy Matey 👋
+
+> Killing all cognitive overhead! My challenge is to solve problems writing readable code everyday.
 
 <!--
 **rondymesquita/rondymesquita** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
