@@ -7,8 +7,8 @@
 
 Experience with web and mobile development, with knowledge in web design. Experience with web and mobile test automation and continuous integration. Currently works as software developer and test analyst at Instituto Atlântico since 2013, Fortaleza, Ceará, Brazil.
 
-Professional Experience
-### Techs
+### Professional Experience
+#### Techs
 - NodeJS
 - Java
 - Python
