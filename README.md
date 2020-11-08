@@ -5,6 +5,9 @@
 ## Who am I?
 [Check my CV](https://raw.githubusercontent.com/rondymesquita/rondymesquita/master/cv/cv-alvaro-rondinelli-mesquita-da-silva.pdf)
 
+Experience with web and mobile development, with knowledge in web design. Experience with web and mobile test automation and continuous integration. Currently works as software developer and test analyst at Instituto Atlântico since 2013, Fortaleza, Ceará, Brazil.
+
+Professional Experience
 ### Techs
 - NodeJS
 - Java
@@ -13,9 +16,6 @@
 - Docker
 - Golang
 
-Experience with web and mobile development, with knowledge in web design. Experience with web and mobile test automation and continuous integration. Currently works as software developer and test analyst at Instituto Atlântico since 2013, Fortaleza, Ceará, Brazil.
-
-Professional Experience
 > Analysis and development of software for research projects of technology. Development, unit and functional testing, automated tests for web and mobile, guided by quality requirements, code review, coding standards, continuous integration and agile methodologies.
 
 - Software developer using NodeJS as REST API and VueJS in a SPA. Also, automating end to end test using Robot Framework. Technologies: VueJS, ExpressJS, NodeJS, ES6, SASS, Node package manager (NPM), Linux, Git, AWS, CI/CD, Docker, Shell Script, Cypress for functional front end tests, Mocha for back end tests, Robot Framework (Appium and Selenium) for End to End tests.
