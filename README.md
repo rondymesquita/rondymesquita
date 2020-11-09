@@ -7,8 +7,10 @@
 
 Experience with web and mobile development, with knowledge in web design. Experience with web and mobile test automation and continuous integration. Currently works as software developer and test analyst at Instituto Atlântico since 2013, Fortaleza, Ceará, Brazil.
 
+> Analysis and development of software for research projects of technology. Development, unit and functional testing, guided by quality requirements, code review, coding standards, continuous integration and agile methodologies. Also experience with automated tests for web and mobile platforms, define testing strategy and testing implementation.
+
 ### Professional Experience
-#### Techs
+#### Technologies
 - NodeJS
 - Java
 - Python
@@ -16,8 +18,7 @@ Experience with web and mobile development, with knowledge in web design. Experi
 - Docker
 - Golang
 
-> Analysis and development of software for research projects of technology. Development, unit and functional testing, automated tests for web and mobile, guided by quality requirements, code review, coding standards, continuous integration and agile methodologies.
-
+#### Recent experiences
 - Software developer using NodeJS as REST API and VueJS in a SPA. Also, automating end to end test using Robot Framework. Technologies: VueJS, ExpressJS, NodeJS, ES6, SASS, Node package manager (NPM), Linux, Git, AWS, CI/CD, Docker, Shell Script, Cypress for functional front end tests, Mocha for back end tests, Robot Framework (Appium and Selenium) for End to End tests.
 
 - Software developer using Golang to create a set o micro services for network management running inside docker containers managed by Kubernetes.
