@@ -1,4 +1,4 @@
-## Ahoy Matey :skull: :parrot:
+## Ahoy Matey 🏴‍☠️ :skull: 🦜
 
 > Killing all cognitive overhead! My challenge is to solve problems writing readable code everyday.
 
@@ -7,16 +7,16 @@
 
 Experience with web and mobile development, with knowledge in web design. Experience with web and mobile test automation and continuous integration. Currently works as software developer and test analyst at Instituto Atlântico since 2013, Fortaleza, Ceará, Brazil.
 
-> Analysis and development of software for research projects of technology. Development, unit and functional testing, guided by quality requirements, code review, coding standards, continuous integration and agile methodologies. Also experience with automated tests for web and mobile platforms, define software test strategy and automated tests implementation.
+> 7 years of experience on analysis and development of software for research projects of technology. Development, unit and functional testing, guided by quality requirements, code review, coding standards, continuous integration and agile methodologies. Also experience with automated tests for web and mobile platforms, define software test strategy and automated tests implementation.
 
 ### Professional Experience
 #### Technologies
-- NodeJS
-- Java
-- Python
-- VueJS
-- Docker
-- Golang
+- :green_heart: NodeJS
+- :coffee: Java
+- :snake: Python
+- :hearts: VueJS
+- :ship: Docker
+- :runner: Golang
 
 #### Recent experiences
 - Software developer using NodeJS as REST API and VueJS in a SPA. Also, automating end to end test using Robot Framework. Technologies: VueJS, ExpressJS, NodeJS, ES6, SASS, Node package manager (NPM), Linux, Git, AWS, CI/CD, Docker, Shell Script, Cypress for functional front end tests, Mocha for back end tests, Robot Framework (Appium and Selenium) for End to End tests.
