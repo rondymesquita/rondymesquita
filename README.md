@@ -7,7 +7,7 @@
 
 Experience with web and mobile development, with knowledge in web design. Experience with web and mobile test automation and continuous integration. Currently works as software developer and test analyst at Instituto Atlântico since 2013, Fortaleza, Ceará, Brazil.
 
-> Analysis and development of software for research projects of technology. Development, unit and functional testing, guided by quality requirements, code review, coding standards, continuous integration and agile methodologies. Also experience with automated tests for web and mobile platforms, define testing strategy and testing implementation.
+> Analysis and development of software for research projects of technology. Development, unit and functional testing, guided by quality requirements, code review, coding standards, continuous integration and agile methodologies. Also experience with automated tests for web and mobile platforms, define software test strategy and automated tests implementation.
 
 ### Professional Experience
 #### Technologies
