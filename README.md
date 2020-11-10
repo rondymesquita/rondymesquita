@@ -28,6 +28,8 @@ Technologies: Golang, Git, Docker, Kubernetes, Shell script.
 
 - Software developer using Spring MVC with Java platform. Development of web test automation using Capybara and Cucumber ruby frameworks, with TDD and BDD techniques and unit tests using JUnit and Mockito. Development of a mobile application using Android and Gradle, mobile test automation using Calabash ruby framework. Code review using Gitlab and TeamCity. Technologies: Java, Spring, Jquery, KnockoutJS, Maven,  JUnit, Mockito, Android, Capybara, Calabash, Cucumber, Gradle, TeamCity.
 
+### Relevant repositories
+* [The Agile Code Review Manifesto](https://github.com/rondymesquita/the-agile-code-review-manifesto)
 
 ### Talks
 * [Professional of the future (IT Career)](https://raw.githubusercontent.com/rondymesquita/rondymesquita/master/talks/Professional_of_the_Future_Rondinelli_Mesquita.pdf)
