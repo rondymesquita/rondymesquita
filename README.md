@@ -5,6 +5,9 @@
 ## Who am I?
 [Check my CV](https://raw.githubusercontent.com/rondymesquita/rondymesquita/master/cv/cv-alvaro-rondinelli-mesquita-da-silva.pdf)
 
+[![linkedin](https://img.shields.io/badge/Linkedin-0077B5?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rondinelli-mesquita-60b18a31)
+[![gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:rondinellimesquitas@gmail.com)
+
 Experience with web and mobile development, with knowledge in web design. Experience with web and mobile test automation and continuous integration. Currently works as software developer and test analyst at Instituto Atlântico since 2013, Fortaleza, Ceará, Brazil.
 
 > 7 years of experience on analysis and development of software for research projects of technology. Development, unit and functional testing, guided by quality requirements, code review, coding standards, continuous integration and agile methodologies. Also experience with automated tests for web and mobile platforms, define software test strategy and automated tests implementation.
