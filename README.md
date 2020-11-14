@@ -3,8 +3,6 @@
 > Killing all cognitive overhead! My challenge is to solve problems writing readable code everyday.
 
 ## Who am I?
-[Check my CV](https://raw.githubusercontent.com/rondymesquita/rondymesquita/master/cv/cv-alvaro-rondinelli-mesquita-da-silva.pdf)
-
 [![check-my-cv](https://img.shields.io/badge/Check_my_CV-gray?style=flat-square&logo=read-the-docs&logoColor=white)](https://raw.githubusercontent.com/rondymesquita/rondymesquita/master/cv/cv-alvaro-rondinelli-mesquita-da-silva.pdf)
 [![linkedin](https://img.shields.io/badge/Linkedin-0077B5?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rondinelli-mesquita-60b18a31)
 [![gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:rondinellimesquitas@gmail.com)
