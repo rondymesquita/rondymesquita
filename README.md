@@ -14,9 +14,9 @@ Experience with web and mobile development, with knowledge in web design. Experi
 ### Professional Experience
 #### Technologies
 - :green_heart: NodeJS
+- :hearts: VueJS
 - :coffee: Java
 - :snake: Python
-- :hearts: VueJS
 - :ship: Docker
 - :runner: Golang
 
@@ -32,6 +32,9 @@ Technologies: Golang, Git, Docker, Kubernetes, Shell script.
 
 ### Relevant repositories
 * [The Agile Code Review Manifesto](https://github.com/rondymesquita/the-agile-code-review-manifesto)
+
+### Fun facts
+* *I love to do hello worlds! You might see a lot of **playgrounds** repositories here.*
 
 ### Talks
 * [Professional of the future (IT Career)](https://raw.githubusercontent.com/rondymesquita/rondymesquita/master/talks/Professional_of_the_Future_Rondinelli_Mesquita.pdf)
