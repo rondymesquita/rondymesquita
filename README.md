@@ -33,6 +33,13 @@ Technologies: Golang, Git, Docker, Kubernetes, Shell script.
 ### Relevant repositories
 * [The Agile Code Review Manifesto](https://github.com/rondymesquita/the-agile-code-review-manifesto)
 
+### What I am currently working
+* [Trap - JS proxies made easy](https://github.com/rondymesquita/trap)
+
+### Proof of concepts
+* [Selenium automation skeleton](https://github.com/rondymesquita/selenium-robot)
+* [Selenium screenshooter for visual regression tests](https://github.com/rondymesquita/selenium-screencapture)
+
 ### Fun facts
 * *I love to do hello worlds! You might see a lot of **playgrounds** repositories here.*
 
