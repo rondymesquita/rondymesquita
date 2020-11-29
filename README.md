@@ -34,7 +34,7 @@ Technologies: Golang, Git, Docker, Kubernetes, Shell script.
 * [The Agile Code Review Manifesto](https://github.com/rondymesquita/the-agile-code-review-manifesto)
 
 ### What I am currently working
-* [Trap - JS proxies made easy](https://github.com/rondymesquita/trap)
+* [Mousetrap - JS proxies made easy](https://github.com/rondymesquita/mousetrap)
 
 ### Proof of concepts
 * [Selenium automation skeleton](https://github.com/rondymesquita/selenium-robot)
