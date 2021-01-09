@@ -13,7 +13,7 @@ Experience with web and mobile development, with knowledge in web design. Experi
 
 ### Professional Experience
 #### Technologies
-- :green_heart: NodeJS
+- ![](https://img.shields.io/static/v1?message=%20&logo=Node.js&labelColor=white&color=white&label=%20&style=flat-square) NodeJS
 - :hearts: VueJS
 - :coffee: Java
 - :snake: Python
