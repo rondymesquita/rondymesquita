@@ -35,7 +35,7 @@ Technologies: Golang, Git, Docker, Kubernetes, Shell script.
 
 ### What I am currently working
 * [Webshooter - Generates PNG and PDF from websites](https://github.com/rondymesquita/webshooter)
-* [Mousetrap - JS proxies made easy](https://github.com/rondymesquita/mousetrap)
+* [Composable Flows - Compose flows and user cases with easy exception handling](https://github.com/rondymesquita/composable-flows)
 
 ### Proof of concepts
 * [Selenium automation skeleton](https://github.com/rondymesquita/selenium-robot)
