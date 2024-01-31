@@ -215,13 +215,17 @@ All data changed inside the container is kept.
 docker rm amazing_taussig
 ```
 
+<!-- pause -->
 If you destroy the container, all data is lost. You need to create a new container using `docker run`.
-
+<!-- pause -->
 Remember
 
 - Container is a instance of a image.
+<!-- pause -->
 - You can create a container using `docker run`.
+<!-- pause -->
 - You can have `multiple containers` from the `same image`.
+<!-- pause -->
 - Each container will have its own `state` (filesystem).
 
 
@@ -236,7 +240,7 @@ FROM ubuntu
 RUN apt-get update && apt-get install -y cowsay fortune
 COPY icons8-docker-240.jpg /home/
 ```
-
+<!-- pause -->
 ```bash
 docker build .
 ```
@@ -256,7 +260,7 @@ docker build -t my-ubuntu .
 ```bash
 docker run -ti my-ubuntu bash
 ```
-
+<!-- pause -->
 ```bash
 docker run -ti my-ubuntu [cmd]
 ```
@@ -274,6 +278,8 @@ docker run -v /host/path:/container/path ubuntu
 ```bash
 docker run -v [host_folder]:[container_folder] ubuntu
 ```
+<!-- pause -->
+Remember
 
 <!-- pause -->
 - Any data put on `/host/path` will be shared to `/container/path` and `vice-versa`.
@@ -300,7 +306,7 @@ COPY server.ts /home
 ARG NODE_ENV
 CMD [ "bun", "server.ts" ]
 ```
-
+<!-- pause -->
 ```bash
 docker build -t server .
 ```
