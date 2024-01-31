@@ -1,0 +1,27 @@
+version: "3.4"
+services:
+  client:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=development
+    environment:
+      - PORT=3300
+      - EXTERNAL_SERVICE=server:3301
+    volumes:
+      - ./:/home
+    ports:
+      - 5500:3300
+  server:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=development
+    environment:
+      - PORT=3301
+    volumes:
+      - ./:/home
+    ports:
+      - 5501:3301
