@@ -4,103 +4,103 @@ sub_title: A brief overview
 author: Rondy Mesquita
 theme:
   name: light
-  x-override:
-    default:
-      margin:
-        percent: 4
-      colors:
-        foreground: "d3edec"
-        background: "2d3b3b"
+  override:
+    # default:
+    #   margin:
+    #     percent: 4
+    #   colors:
+    #     foreground: "d3edec"
+    #     background: "2d3b3b"
 
-    slide_title:
-      alignment: center
-      padding_bottom: 2
-      padding_top: 1
-      padding_left: 8
-      colors:
-        foreground: "4dc7f0"
+    # slide_title:
+    #   alignment: center
+    #   padding_bottom: 2
+    #   padding_top: 1
+    #   padding_left: 8
+    #   colors:
+    #     foreground: "4dc7f0"
         # background: "ffffff"
 
     code:
-      alignment: center
-      minimum_size: 50
+      alignment: left
+      minimum_size: 1
       minimum_margin:
-        percent: 4
-      theme_name: base16-mocha.dark
+        percent: 12
+      # theme_name: base16-mocha.dark
       padding:
         horizontal: 2
         vertical: 1
 
-    execution_output:
-      colors:
-        foreground: "e6e6e6"
-        background: "2d2d2d"
+    # execution_output:
+    #   colors:
+    #     foreground: "e6e6e6"
+    #     background: "2d2d2d"
 
-    inline_code:
-      colors:
-        foreground: "ffffff"
-        background: "1f82a6"
+    # inline_code:
+    #   colors:
+    #     foreground: "ffffff"
+    #     background: "1f82a6"
 
-    intro_slide:
-      title:
-        alignment: center
-        colors:
-          foreground: "4dc7f0"
-      subtitle:
-        alignment: center
-        colors:
-          foreground: "a5d7e8"
-      author:
-        alignment: center
-        colors:
-          foreground: "4dc7f0"
-        positioning: page_bottom
+    # intro_slide:
+    #   title:
+    #     alignment: center
+    #     colors:
+    #       foreground: "4dc7f0"
+    #   subtitle:
+    #     alignment: center
+    #     colors:
+    #       foreground: "a5d7e8"
+    #   author:
+    #     alignment: center
+    #     colors:
+    #       foreground: "4dc7f0"
+    #     positioning: page_bottom
 
-    headings:
-      h1:
-        prefix: "██"
-        colors:
-          foreground: "d3edec"
-      h2:
-        prefix: "▓▓▓"
-        colors:
-          foreground: "d3edec"
-      h3:
-        prefix: "▒▒▒▒"
-        colors:
-          foreground: "d3edec"
-      h4:
-        prefix: "░░░░░"
-        colors:
-          foreground: "d3edec"
-      h5:
-        prefix: "░░░░░░"
-        colors:
-          foreground: "d3edec"
-      h6:
-        prefix: "░░░░░░░"
-        colors:
-          foreground: "d3edec"
+    # headings:
+    #   h1:
+    #     prefix: "██"
+    #     colors:
+    #       foreground: "d3edec"
+    #   h2:
+    #     prefix: "▓▓▓"
+    #     colors:
+    #       foreground: "d3edec"
+    #   h3:
+    #     prefix: "▒▒▒▒"
+    #     colors:
+    #       foreground: "d3edec"
+    #   h4:
+    #     prefix: "░░░░░"
+    #     colors:
+    #       foreground: "d3edec"
+    #   h5:
+    #     prefix: "░░░░░░"
+    #     colors:
+    #       foreground: "d3edec"
+    #   h6:
+    #     prefix: "░░░░░░░"
+    #     colors:
+    #       foreground: "d3edec"
 
-    block_quote:
-      prefix: "▍ "
-      colors:
-        foreground: "f0f0f0"
-        background: "292e42"
+    # block_quote:
+    #   prefix: "▍ "
+    #   colors:
+    #     foreground: "f0f0f0"
+    #     background: "292e42"
 
-    typst:
-      colors:
-        foreground: "f0f0f0"
-        background: "292e42"
+    # typst:
+    #   colors:
+    #     foreground: "f0f0f0"
+    #     background: "292e42"
 
-    footer:
-      style: progress_bar
-      colors:
-        foreground: "bedad8"
+    # footer:
+    #   style: progress_bar
+    #   colors:
+    #     foreground: "bedad8"
 
-    modals:
-      selection_colors:
-        foreground: "ee9322"
+    # modals:
+    #   selection_colors:
+    #     foreground: "ee9322"
 
 ---
 
@@ -294,10 +294,11 @@ docker run -v [host_folder]:[container_folder] ubuntu
 Expose a service from the container to the host.
 
 ```bash
-FROM node:18
+FROM oven/bun
 WORKDIR /home
-COPY server.js /home
-CMD [ "node", "server.js" ]
+COPY server.ts /home
+ARG NODE_ENV
+CMD [ "bun", "server.ts" ]
 ```
 
 ```bash
@@ -326,7 +327,37 @@ Docker Compose
 # docker compose
 Agregatte multiple containers configuration in a single file.
 
+```yaml
+version: "3.4"
+services:
+  server:
+    build:
+      context: ../my-server/
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=development
+    environment:
+      - PORT=3300
+    volumes:
+      - ./:/home/mounted-volume
+    ports:
+      - 5500:3300
+```
+
+
+
+<!-- end_slide -->
+# docker compose
 ```bash
+docker compose up
+
+docker compose build
+
+docker compose up --build
+
+docker compose down
+
+docker compose ps
 ```
 
 
