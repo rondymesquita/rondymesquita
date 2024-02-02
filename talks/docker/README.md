@@ -98,6 +98,14 @@ theme:
     #   colors:
     #     foreground: "bedad8"
 
+    footer:
+      style: progress_bar
+      # character: "🐳"
+      # style: template
+      # left: "🐳"
+      # center: "@myhandle"
+      # right: "{current_slide} / {total_slides}"
+
     # modals:
     #   selection_colors:
     #     foreground: "ee9322"
@@ -118,6 +126,12 @@ Basically, consists in `Images` and `Containers`.
 In other words...
 Container is a `instance` of a `image`!
 ---
+
+
+<!-- end_slide -->
+
+![](docker-containerized-and-vm-transparent-bg.jpg)
+> https://www.docker.com/wp-content/uploads/2021/11/docker-containerized-and-vm-transparent-bg.png
 
 
 <!-- end_slide -->
